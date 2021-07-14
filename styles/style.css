@@ -1,29 +1,35 @@
+/*-------------------------
+    COMMON STYLES START
+------------------------ */
 body{
     margin: 0px;
     background-color: #FFFFFF;
     font-family: Poppins;
     font-style: normal;
 }
+/*-------------------------
+    COMMON STYLES END
+------------------------ */
+
+/*-------------------------
+    HEADER STYLES START
+------------------------ */
 header{
     background-color: #2D25A0;
-    padding: 28px 120px 88px 156px;
+    padding: 26px 120px 49px 125px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .header-menu ul{
     list-style: none;
-    text-decoration: none;
     display: flex;
-    align-items: center;
 }
 .header-menu ul a{
     text-decoration: none;
     color: #FFFFFF;
     font-size: 16px;
     margin-right: 36px;
-    text-align: center;
 }
 .header-button{
     color: #FFFFFF;
@@ -31,13 +37,36 @@ header{
     height: 35px;
     background-color: #E02C6D;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 12px;
+    border-radius: 5px;
 }
+.header-button span{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.header-button:hover{
+    color: black;
+    background-color: #f5e7e7;
+    transform: scale(1.2);
+  }
+/*-------------------------
+    HEADER STYLES END
+------------------------ */
 
-.header-title{
-    align-items: center;
+/*-------------------------
+    BODY STYLES START
+------------------------ */
+
+/*--------------------------------
+    FIRST SECTION STYLES START
+--------------------------------*/
+.first-section{
+    background-color: #2D25A0;
+    padding: 0px 120px 88px 156px;
+    display: flex;
+    justify-content: space-between;
 }
-.header-title-text{
+.first-section-title-text{
     font-weight: bold;
     font-size: 64px;
     line-height: 80px;
@@ -46,7 +75,10 @@ header{
 .header-image{
 
 }
-.header-image img{
+.first-section-image img{
     width: 556.01px;
     height: 438px;
 }
+/*--------------------------------
+    FIRST SECTION STYLES START
+--------------------------------*/
