@@ -202,9 +202,7 @@ footer{
 --------------------------- */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    body{
-        /* overflow: hidden; */
-    }
+
     /* HEADER STYLE */
     header{
         padding: 5px 0px 0px 5px;
@@ -252,7 +250,7 @@ footer{
     /* NEWSLETTER STYLE */
     .newsletter{
         margin: 0px 5px 0px 5px;
-        padding: 5px;
+        padding: 0px;
     }
     /* FOOTER STYLE */
     footer{
@@ -276,22 +274,85 @@ footer{
     font-size: 10px;
     color: black;
 }
-
-
-
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {...}
+/* 
+Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 688px) and (max-width: 992px) {
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...}
+    /* HEADER STYLE */
+    header{
+        padding: 5px 0px 0px 5px;
+        display: flex;
+    }
+    .header-menu ul{
+        display: flex;
+    }
+    .header-button{
+        width: 120px;
+        height: 25px;
+        padding-top: 5px;
+        border-radius: 5px;
+    }
+    
+    /* FIRST SECTION */
+    .first-section{
+        padding: 5px 0px 0px 5px;
+        display: flex;
+    }
+    .first-section-title-text, .highlight-text{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .first-section-image img, .highlight-image img{
+        width: 329px;
+        height: 259.17px;
+    }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
+    /* Blog Section */
+    .blogs, .highlights-container{
+        margin: 20px 10px 0px 10px;
+        grid-template-columns: 1fr 1FR;
+    }
+    /* HIGHLIGT SECTION */
+    .highlight{
+        width: 319px;
+        height: 259px;
+    }
+    .responsive-iframe{
+        width="330";
+        height="315";
+    }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
+    /* NEWSLETTER STYLE */
+    .newsletter{
+        margin: 0px 5px 0px 5px;
+        padding: 0px;
+    }
+    /* FOOTER STYLE */
+    footer{
+        display:block;
+        padding-top: 10px;
+        margin-left: 70PX;
+    }
+.football-container img{
+    width: 200px;
+    height: 80px;
+}
+.social-media-icon-container{
+    display: flex;
+}
+.social-media-icon-container img{
+    height: 32px;
+    width: 32px;
+}
+
+.copy-right{
+    font-size: 10px;
+    color: black;
+}
+} */
+
 /*---------------------------
     RESPONSIVE STYLES END
 -------------------------- */
