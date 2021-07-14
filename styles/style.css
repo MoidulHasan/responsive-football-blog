@@ -278,7 +278,7 @@ footer{
 
 /* 
 Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 688px) and (max-width: 992px) {
+@media only screen and (min-width: 601px) and (max-width: 800px) {
 
     /* HEADER STYLE */
     header{
@@ -316,8 +316,8 @@ Medium devices (landscape tablets, 768px and up) */
     }
     /* HIGHLIGT SECTION */
     .highlight{
-        width: 319px;
-        height: 259px;
+        width: 450px;
+        height: 300px;
     }
     .responsive-iframe{
         width="330";
