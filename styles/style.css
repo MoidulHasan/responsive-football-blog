@@ -80,5 +80,50 @@ header{
     height: 438px;
 }
 /*--------------------------------
-    FIRST SECTION STYLES START
+    FIRST SECTION STYLES END
 --------------------------------*/
+
+/*-------------------------
+    BLOG STYLES START
+------------------------ */
+.blogs{
+    margin: 70px 180px 165px 180px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+.blog{
+    padding: 15px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.blog img{
+    width: 300px;
+    height: 256px;
+}
+.blog h3{
+    font-weight: bold;
+    font-size: 28px;
+    color: #18191F;
+}
+.blog-descriptions{
+    color: #6C6C6C;
+    font-size: 16px;
+}
+/*-------------------------
+    BLOG STYLES END
+------------------------ */
+
+/*-------------------------
+    HIGHLIGHT STYLES START
+------------------------ */
+
+/*-------------------------
+    HIGHLIGHT STYLES END
+------------------------ */
+
+/*-------------------------
+    BODY STYLES START
+------------------------ */
