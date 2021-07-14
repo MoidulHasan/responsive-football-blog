@@ -1,6 +1,7 @@
 /*-------------------------
     COMMON STYLES START
 ------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 body{
     margin: 0px;
     background-color: #FFFFFF;
@@ -142,6 +143,10 @@ header{
     width: 467px;
     height: 327px;
 }
+.responsive-iframe{
+    width="530";
+    height="315";
+}
 /*-------------------------
     HIGHLIGHT STYLES END
 ------------------------ */
@@ -192,3 +197,101 @@ footer{
 ------------------------ */
 
 
+/*----------------------------
+    RESPONSIVE STYLES START
+--------------------------- */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body{
+        /* overflow: hidden; */
+    }
+    /* HEADER STYLE */
+    header{
+        padding: 5px 0px 0px 5px;
+        display: flex;
+    }
+    .header-menu ul{
+        display: block;
+    }
+    .header-button{
+        width: 120px;
+        height: 25px;
+        padding-top: 5px;
+        border-radius: 5px;
+    }
+    
+    /* FIRST SECTION */
+    .first-section{
+        padding: 5px 0px 0px 5px;
+        display: block;
+    }
+    .first-section-title-text, .highlight-text{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .first-section-image img, .highlight-image img{
+        width: 329px;
+        height: 259.17px;
+    }
+
+    /* Blog Section */
+    .blogs, .highlights-container{
+        margin: 20px 10px 0px 10px;
+        grid-template-columns: 1fr;
+    }
+    /* HIGHLIGT SECTION */
+    .highlight{
+        width: 319px;
+        height: 259px;
+    }
+    .responsive-iframe{
+        width="330";
+        height="315";
+    }
+
+    /* NEWSLETTER STYLE */
+    .newsletter{
+        margin: 0px 5px 0px 5px;
+        padding: 5px;
+    }
+    /* FOOTER STYLE */
+    footer{
+        display:block;
+        padding-top: 10px;
+        margin-left: 70PX;
+    }
+.football-container img{
+    width: 200px;
+    height: 80px;
+}
+.social-media-icon-container{
+    display: flex;
+}
+.social-media-icon-container img{
+    height: 32px;
+    width: 32px;
+}
+
+.copy-right{
+    font-size: 10px;
+    color: black;
+}
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+/*---------------------------
+    RESPONSIVE STYLES END
+-------------------------- */
