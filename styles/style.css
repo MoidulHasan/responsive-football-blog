@@ -87,7 +87,7 @@ header{
     BLOG STYLES START
 ------------------------ */
 .blogs{
-    margin: 70px 180px 165px 180px;
+    margin: 70px 180px 0px 180px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
@@ -119,11 +119,76 @@ header{
 /*-------------------------
     HIGHLIGHT STYLES START
 ------------------------ */
-
+.highlights-container{
+    margin: 165px 180px 158px 180px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 66px;
+    grid-row-gap: 27px;
+}
+.highlight{
+    width: 419px;
+    height: 259px;
+}
+.highlight-text{
+    font-weight: bold;
+    font-size: 48px;
+    color: #0A0826;
+}
+.highlight-descriptions{
+    color: #6C6C6C;
+}
+.highlight-image img{
+    width: 467px;
+    height: 327px;
+}
 /*-------------------------
     HIGHLIGHT STYLES END
 ------------------------ */
 
+/*-----------------------------
+    NEWSLETTER STYLES START
+---------------------------- */
+.newsletter{
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    margin: 0px 100px 0px 100px;
+    padding: 20px;
+}
 /*-------------------------
-    BODY STYLES START
+    NEWSLETTER STYLES END
 ------------------------ */
+/*-------------------------
+    BODY STYLES END
+------------------------ */
+
+/*-------------------------
+    FOOTER STYLES START
+------------------------ */
+footer{
+    margin: 0px 180px 63px 180px;
+    display:block;
+    padding: 30px;
+    text-align: center;
+}
+.football-container img{
+    width: 483.87px;
+    height: 110px;
+}
+.social-media-icon-container{
+
+}
+.social-media-icon-container img{
+    height: 32px;
+    width: 32px;
+}
+
+.copy-right{
+    font-size: 18px;
+    color: black;
+}
+/*-------------------------
+    FOOTER STYLES END
+------------------------ */
+
+
